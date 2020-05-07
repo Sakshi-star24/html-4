@@ -1,0 +1,9 @@
+body {background-image:url('istockphoto-605740894-612x612.jpg'); background-attachment:absolute;
+background-repeat:no-repeat;background-size:100% 100%; padding:40px;}
+h1 {background-color:pink; text-align:center;border:2px ridge red;font-family:Comic Sans MS;border-width:5px;border-radius:30%}
+	p {line-height:40px; font-size:20px; border: 2px groove chocolate; 
+		border-width:4px;
+		background-image:url('download.jpg');background-color:green; background-repeat:no-repeat; background-position:relative; background-size:100% 100%;}
+	#121 {text-indent:5px;word-spacing:5px; text-shadow:2px 2px red;}
+	.special {color:violet; text-decoration:underline;}
+	h2 {}

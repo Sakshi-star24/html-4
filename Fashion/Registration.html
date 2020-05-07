@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title>Registration</title>
+		<style type="text/css">
+			body {
+			background-image: url('485780d2e2144bf.jpg');
+			background-size:100% 100%;
+			text-align:center;
+			color:white;
+			font-size: 25px;
+			margin: 0;
+			display:block;
+			font-weight:800;
+			font-family:Script MT;
+			padding:115px;
+			}
+			
+		</style>
+	</head>
+	<body>
+	<form method="post" action="saki2@yahoo.com">
+		<fieldset><legend>
+		<h1 style="font-family:algerian">Registration Form</h1></legend>
+		<br><br>
+		<label for="First_name">First Name&emsp;&emsp;</label>
+		<input type="text" id="First_name"placeholder="Enter First part of name" required>
+		<br><br>
+		<label for="Last_name">Last Name&emsp;&emsp;</label>
+		<input type="text" id="Last_name"placeholder="Enter Last part of name" disabled>
+		<br><br>
+		<label for="birth_date">Birth Date&emsp;&emsp;</label>
+		<input type="date" id="birth_date">
+		<br><br>
+		<label>Gender&emsp;&emsp;</label>
+		<label for="gender">Male&emsp;</label><input type="radio" id="gender" name="m">
+		<label for="gender">Female&emsp;</label><input type="radio" id="gender" name="m">
+		<br><br>
+		<label for="country">Country&emsp;&emsp;</label>
+		<select id="country">
+			<option value="US">United States</option>
+            <option value="UK">United Kingdom</option>
+            <option value="I">India</option>
+		</select>
+		<br><br>
+		<label for="city">City&emsp;&emsp;</label>
+		<input type="text" id="city">
+		<br><br>
+		<label for="course">Select courses you want to register:-<br><br></label>
+		<font style="font-size:15px; font-family:comic sans MS;"><input type="checkbox">C,C++,Java&emsp;
+		<input type="checkbox">JavaScript,Bootstrap&emsp;
+		<input type="checkbox">HTML,PHP&emsp;
+		<input type="checkbox">MySQL&emsp;<br>
+		<input type="checkbox">Photoshop&emsp;
+		<input type="checkbox">Modelling&emsp;
+		<input type="checkbox">Fashion Design&emsp;
+		<input type="checkbox">Corel Draw</font>
+		<br><br>
+		<label for="email">Email&emsp;&emsp;</label>
+		<input type="email" id="email">
+		<br><br>
+		<label>Phone&emsp;&emsp;</label>
+		<textarea placeholder="Area Code" rows="4" cols="100"></textarea>
+		<input type="number" placeholder="Phone Number">
+		<br><br>
+		<label>Password&emsp;&emsp;</label>
+		<input type="password">
+		<br><br>
+		<label>Confirm Password&emsp;&emsp;</label>
+		<input type="password">
+		<br><br>
+		<label for="payment">Payment Mode&emsp;&emsp;</label>
+			<select name="payment" id="payment">
+                                            <option>Cheque</option>
+                                            <option>Cash</option>
+                                            <option>Demand Draf</option>
+                                        </select>
+		<br><br>
+		<label>Donate us!</label>&emsp;&emsp;
+		<input type="range" min="100000" max="10000000">
+		<br><br>
+		<label><input type="checkbox">I agree the terms & policies of institution.</label>
+		<br><br><hr><br><button type="submit" style="font-size:20px; background-color:pink;">Register</button>&emsp;
+		<button type="reset" style="font-size:20px; background-color:pink;">Reset</button>
+		</fieldset
+	</form>
+	</body>
+</html>
